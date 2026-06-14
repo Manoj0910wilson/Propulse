@@ -89,3 +89,28 @@
   padding:28px;position:sticky;top:120px;
 }
 .form-side h3{font-family:var(--font-serif);font-size:20px;margin-bottom:16px}
+
+/* Blog */
+.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:48px}
+@media(max-width:900px){.blog-grid{grid-template-columns:1fr;max-width:560px;margin:0 auto 48px}}
+.blog-card{
+  background:var(--glass-2);border:1px solid var(--line);border-radius:var(--r-l);
+  padding:28px;display:flex;flex-direction:column;text-decoration:none;color:var(--text);
+  transition:border-color .2s,transform .2s;
+}
+.blog-card:hover{border-color:var(--line-gold);transform:translateY(-2px)}
+.blog-card .price-tag{margin-bottom:14px}
+.blog-card h3{font-family:var(--font-serif);font-size:21px;margin-bottom:10px;line-height:1.3}
+.blog-card p{color:var(--muted);font-size:14px;line-height:1.6;flex:1}
+.blog-card .read-more{color:var(--gold);font-size:13px;margin-top:16px;font-family:var(--font-mono)}
+
+.blog-post{max-width:760px;margin:0 auto}
+.blog-post h2{font-family:var(--font-serif);font-size:clamp(20px,2.6vw,28px);margin:32px 0 14px}
+.blog-post p{color:var(--text);font-size:15.5px;line-height:1.8;margin-bottom:18px}
+.blog-post ul{color:var(--text);font-size:15.5px;line-height:1.8;margin:0 0 18px;padding-left:24px}
+.blog-post .post-meta{color:var(--muted);font-size:13px;font-family:var(--font-mono);margin-bottom:8px}
+.blog-post .post-cta{
+  margin-top:48px;text-align:center;background:var(--glass-2);border:1px solid var(--line-gold);
+  border-radius:var(--r-l);padding:32px;
+}
+.blog-post .post-cta h4{font-family:var(--font-serif);font-size:20px;margin-bottom:14px}
