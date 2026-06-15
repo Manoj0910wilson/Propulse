@@ -9,8 +9,8 @@
 ## Done So Far
 1. **Website**
    - Restructured single-page site into index/pricing/lead-form pages
-   - "Book a Call" → tel:+918939535151
-   - WhatsApp links → https://wa.me/918939535151
+   - "Book a Call" → tel:
+   - WhatsApp links → https://wa.me/
    - "Build Your Growth Journey" → lead-form.html (embedded Google Form)
    - "Explore System" → pricing.html
    - Google Form embed URL: https://docs.google.com/forms/d/e/1FAIpQLSfkAlsxu3jsl8p1cYq3satmxV2XfItgNcoA5jy7extyEp0AXQ/viewform?embedded=true
